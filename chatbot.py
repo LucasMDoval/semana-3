@@ -12,7 +12,7 @@ hobbie = input(f"Perfecto, me acordaré de visitar {visitar} cuando vaya a {resi
 
 #abro un bucle con la funcion de que si me responde algo que no sea ninguna de las 2 opciones que propongo repita la pregunta
 while True:
-    quedar = input(f"¡Qué guay! A mí también me gusta {hobbie}. Cuando visite {residencia}, ¿podemos quedar para {hobbie} juntos? ¿Qué te parece si después de {hobbie} vamos a {visitar}?: ")
+    quedar = input(f"¡Qué guay! A mí también me gusta {hobbie}. Cuando visite {residencia}, ¿podemos quedar para {hobbie} juntos? ¿Qué te parece si después de {hobbie} vamos a {visitar}?  ok/me viene mal : ")
 
 #si responde algunauna de las opciones el bucle se cierra 
     if quedar == "ok":
